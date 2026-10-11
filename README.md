@@ -42,9 +42,12 @@ The system takes a movie title as input and returns a ranked list of similar mov
 
 ## 📂 Project Files
 
-- `Movie_Recommendation_Insights_Updated.ipynb` — main project notebook
-- `movie_recommendation_updated.py` — supporting Python implementation, if included
-- `movies.csv` — dataset, if included and permitted for redistribution
+Movie-Recommendation-Insights/
+├── Movie_Recommendation_Insights_Updated.ipynb
+├── movie_recommendation_updated.py
+├── movies.csv
+├── requirements.txt
+└── README.md
 
 ## 🚀 Getting Started
 
@@ -60,7 +63,7 @@ cd Movie-Recommendation-Insights
 Install the required libraries in your Python environment:
 
 ```bash
-pip install pandas scikit-learn jupyter
+pip install -r requirements.txt
 ```
 
 Check the notebook imports and install any additional dependencies it requires.
